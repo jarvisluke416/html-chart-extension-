@@ -1,1 +1,13 @@
-
+{
+  "manifest_version": 3,
+  "name": "HTML Tag Chart",
+  "version": "1.0",
+  "description": "Displays page HTML structure as a tree",
+  "permissions": ["scripting", "activeTab"],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open HTML Chart"
+  }
+}
